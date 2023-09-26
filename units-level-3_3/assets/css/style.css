@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "mavenpro";
+    src: url(./../fonts/MavenPro-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "gildadisplay";
+    src: url(./../fonts/GildaDisplay-Regular.ttf);
+}
+
+header {
+    background-color: #333333;
+    height: 694px;
+}
+
+h1 {
+    color: #949494;
+    font-size: 17.6px;
+    padding-top: 15px;
+    margin-left: 20px;
+    width: 74.3px;
+    font-family: "mavenpro";
+}
+
+span {
+    padding-left: 6px;
+}
+
+.colored-box {
+    color: white;
+    background-image: linear-gradient(to top right, purple, rgb(57, 155, 212));
+    width: 300px;
+    height: 227px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 126px;
+}
+
+.colored-box:hover{
+    background-image: linear-gradient(to top right, rgb(57, 155, 212),  purple);
+}
+
+.text-top-box {
+    font-size: 48px;
+    padding-bottom: 30px;
+    line-height: 70px;
+    font-family: "gildadisplay";
+}
+
+.text-bottom-box {
+    font-size: 16px;
+    font-family: "mavenpro";
+    padding-inline: 7px;
+}
+
+nav {
+    color: #949494;
+    text-align: right;
+    font-size: 16px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+li {
+    padding-bottom: 16px;
+    font-family: "mavenpro";
+    font-weight: 400;
+}
+
+li:hover{
+    text-shadow: 0 0 3px white;
+    color: white;
+}
+
+.text-with-opacity {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: #f5f3f3;
+    font-weight: 700;
+    position:absolute;
+    padding-top: 300px;
+    z-index: 1;
+    margin-left: 50px;
+}
+
+.first-headline {
+    padding-top: 370px;
+    font-family: Times;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 56px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 50px
+}
+
+.text-article {
+    padding-top: 505.5px;
+    font-size: 16px;
+    width: 50vw;
+    margin-left: 50px
+}
+
+article {
+    display: flex;
+    width: 695px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.text-article {
+    font-family: "mavenpro";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+article img{
+    width: 100%;
+    height: 434.375px;
+    margin-top: 80px;
+}
+
+.order {
+    flex-direction: column;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Times;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.under-title {
+    font-size: 16px;
+    font-family: Times;
+    font-weight: 400;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(./../fonts/Roboto/Roboto-Regular.ttf);
+}
+body {
+    background-image: url(./../img/premium_photo-1673913966908-1bb9d5bcb0f0.avif);
+    font-family: "roboto", sans-serif;}
+
+main {
+    padding: 5%;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px white;
+    text-align: center;
+    padding-block: 30px;
+    font-size: 2rem;
+    padding-inline: 15%;
+}
+
+article {
+    background-color: rgba(203, 203, 203, 0.688);
+    border-radius: 5rem;
+    display: flex;
+    height: 40vh;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 14px;
+}
+
+p,h2 {
+    text-align: center;
+    margin: 0 auto;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pets {
+    font-size: 1rem;
+    border: 1px solid black;
+}
+
+li {
+    line-height: 1.5em;
+    list-style: none;
+    font-size: 0.8em;
+    padding-left: 1rem;
+    /* text-indent: -0.7rem; */
+}
+
+ul {
+    padding-inline-start: 1.2em;
+}
+
+.dog li::before{
+    content: "🐶 ";
+}
+.cat li::before{
+    content: "🐱 ";
+}
+.parrot li::before{
+    content: "🐧 ";
+}
+.snake li::before{
+    content: "🐍 ";
+}
+.lizzard li::before{
+    content: "🦎 ";
+}
